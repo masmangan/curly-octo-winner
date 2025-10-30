@@ -1,0 +1,11 @@
+@startuml
+class Main {
++ greetings() : String
++ {static} main(String[] args) : void
+
+}
+
+class AppTest {
++ shouldAnswerWithTrue() : void
+}
+@enduml
