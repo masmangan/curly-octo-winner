@@ -1,6 +1,6 @@
 @startuml
 class Main {
-+ greetings() : String
++ {static} greetings() : String
 + {static} main(String[] args) : void
 
 }
