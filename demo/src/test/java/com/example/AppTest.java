@@ -1,6 +1,6 @@
-package demo.src.test.java.com.example;
+package com.example;
 
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 import org.junit.Test;
 
@@ -9,12 +9,11 @@ import org.junit.Test;
  */
 public class AppTest 
 {
-    /**
-     * Rigorous Test :-)
-     */
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTrue( true );
+        String expected = "Hello World!";
+        String actual = Main.greetings();
+        assertTrue(  expected.equals(actual) );
     }
 }
